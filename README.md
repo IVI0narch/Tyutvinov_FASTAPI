@@ -17,7 +17,7 @@
   ├── stats.py          # Бизнес-логика статистики
   └── test_main.py      # Тесты через TestClient
 .gitignore              # Исключения для Git
-.env                    # Переменные окружения (секреты)
+.env                    # Переменные окружения
 Dockerfile              # Docker-образ
 docker-compose.yml      # Сервисная комбинация Docker
 books.csv               # Датасет книг
@@ -54,7 +54,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Создайте файл `.env` на основе `.env.example`, укажите:
+4. Создайте файл `.env`, укажите:
 
 ```ini
 SECRET_KEY=...
